@@ -1,0 +1,9 @@
+CompanyName=@game_play267
+FileDescription=T7ES3 Screen Manager
+FileVersion=%%VERSION%%
+InternalName=T7ES3 Screen Manager
+OriginalFilename=t7es3ep.exe
+ProductName=T7ES3 Screen Manager
+ProductVersion=%%VERSION%%
+LegalCopyright=© 2025 Philip
+Comments=Built on %%DATETIME%% | Git Tag: %%GIT_TAG%%
