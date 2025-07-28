@@ -5,13 +5,12 @@ Just run the t7es3sm.exe.
 
 Features:
 - move screen to another monitor.
-- set resolutions.
-- position screen.
+- set to full screen.
 
 
 ---
 
-![rpcl3_default_256.png](t7es3_media/t7es3_default_256.png)
+![t7es3_default_256.png](t7es3_media/t7es3_default_256.png)
 
-![github.png](images/github.png)
-**[RobertoTorino](https://github.com/RobertoTorino)**     
+![github.png](images/github.png)                
+**[RobertoTorino](https://github.com/RobertoTorino)**                     
