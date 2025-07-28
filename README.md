@@ -8,7 +8,9 @@ Features:
 - set to full screen.
 
 
-> For the Tekken7 games I always set my display resolution to 1920x1080, both on my main and second monitor.        
+> For the Tekken7 games I always set my display resolution to 1920x1080, both on my main and second monitor.                       
+
+![t7es3sm.png](images/t7es3sm.png)                  
 
 ---
 

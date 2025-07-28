@@ -84,7 +84,7 @@ msg := "Monitor Count: " . MonitorCount . "`n`n"
 ; ───────────────────────────────────────────────────────────────
 ;Unique window class name
 #WinActivateForce
-scriptTitle := "T7ES3 Screen Manager 3"
+scriptTitle := "T7ES3 Screen Manager"
 if WinExist("ahk_class AutoHotkey ahk_exe " A_ScriptName) && !A_IsCompiled {
     ;Re-run if script is not compiled
     ExitApp
@@ -106,7 +106,7 @@ BringToFront(wParam, lParam, msg, hwnd) {
 ; ─────────────────────────────────────────────────── START GUI. ───────────────────────────────────────────────────────
 ; ── 🎮🎮🎮🎮🎮🎮🎮🎮🎮🎮🎮🎮🎮🎮🎮🎮🎮🎮🎮🎮🎮🎮🎮🎮🎮🎮🎮🎮🎮🎮🎮🎮🎮🎮🎮🎮🎮🎮🎮🎮🎮🎮🎮🎮🎮🎮🎮🎮 ──
 ; ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-title := "T7ES3 Screen Manager 3 - " . Chr(169) . " " . A_YYYY . " - Philip"
+title := "T7ES3 Screen Manager - " . Chr(169) . " " . A_YYYY . " - Philip"
 Gui, Show, w400 h100, %title%
 Gui, +LastFound +AlwaysOnTop
 Gui, Font, s10 q5, Segoe UI
@@ -130,7 +130,7 @@ Menu, Tray, Add, Show GUI, ShowGui                      ;Add a custom "Show GUI"
 Menu, Tray, Add                                         ;Add a separator line
 Menu, Tray, Add, About T7ES3..., ShowAboutDialog
 Menu, Tray, Default, Show GUI                           ;Make "Show GUI" the default double-click action
-Menu, Tray, Tip, T7ES3 Screen Manager 3      ;Tooltip when hovering
+Menu, Tray, Tip, T7ES3 Screen Manager      ;Tooltip when hovering
 
 ; ─── this return ends all updates to the gui. ───────────────────────────────────
 return
@@ -290,7 +290,7 @@ return
 ; ─── Show GUI. ───────────────────────────────────────────────────────────────────
 ShowGui:
     Gui, Show
-    SB_SetText("T7ES3 Screen Manager 3 GUI Shown.", 1)
+    SB_SetText("T7ES3 Screen Manager GUI Shown.", 1)
 return
 
 ExitScript:
@@ -323,7 +323,7 @@ ShowAboutDialog() {
         version := verContent
     }
 
-aboutText := "T7ES3 Screen Manager 3 T7ES3`n"
+aboutText := "T7ES3 Screen Manager`n"
            . "Realtime Process Priority Management for T7ES3`n"
            . "Version: " . version . "`n"
            . Chr(169) . " " . A_YYYY . " Philip" . "`n"
