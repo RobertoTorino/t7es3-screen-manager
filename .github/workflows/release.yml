@@ -32,7 +32,7 @@ jobs:
           $baseFile    = "ahk\Compiler\Unicode 32-bit.bin"
           $input       = "t7es3sm.ahk"
           $output      = "t7es3sm.exe"
-          $icon        = "t7es3_media\t7es3.ico"
+          $icon        = "t7es3_media\t7es3v2.ico"
           $zipName     = "t7es3_release.zip"
           $versionTxt  = "version.txt"
           $versionDat  = "version.dat"
